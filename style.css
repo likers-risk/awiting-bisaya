@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white
+}
+.background_image {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(11, 92, 124);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;
+    padding-right: 8%;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 500px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 100%;
+}
+nav ul li a:hover{
+    list-style-type: none;
+    display: inline-block;
+    transition: transform scale(.6s);
+    color: violet;
+}
+img {
+    width: 300px;
+    height: 190px;
+    border-radius: 0%;
+    margin-top: 25px;   
+}
+.me {
+    padding: 5px 10px;
+    
+}
+card1 h3{
+    font-size: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+card1 h3:after{
+    content:"";
+    height: 1px;
+    width: 285px;
+    background-color:  #fff;
+    display: block;
+    margin:auto;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    margin:auto;
+    padding: 25px 35px;
+}
+.box1{
+    width: 700px;
+    height: 800px;
+    background: rgba(78, 69, 69,0.4);
+    padding: 50px;
+    text-align: center;
+    margin: 35px;
+    margin-top: 1%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 0 1;
+    align-items: stretch;
+}
+
+p{
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: 'Century Gothic',sans-serif;
+    text-align: left;
+    justify-content: left;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'Century Gothic',sans-serif;
+}
+h3{
+    font-size: 15px;
+    font-family: 'Century Gothic',sans-serif;
+}
+button{
+    border-radius: 30px;
+    border: none;
+    margin-top: 1%;
+    width: 35%;
+    background-color: rgb(116, 39, 116);
+}
+button h2{
+    height: 28px;
+    width: 90px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+button:hover{
+    list-style-type: none;
+    display: inline-block;
+    transform: scale(1.2);
+    color: rgb(161, 54, 161);
+}
+h1{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+span{
+    color: violet;
+    text-align: left;
+}
+h1{
+    font-size: 35px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@400;500;600&family=Explora&family=Indie+Flower&family=Noto+Sans:ital,wght@0,300;1,100;1,200&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+last h2{
+    font-size: 28px;
+    margin-top: 2%;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Explora', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    display: block;
+    font-style: italic;
+    color: white;
+}
+end h2{
+    font-size: 15px;
+    margin-top: 0%;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Explora', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: block;
+    color: white;
+}
+.last{
+    font-size: 10px;
+    margin-top: 30px;
+    
+}
+footer{
+    display: inline-block;
+}
+.last i{
+    display: flex;
+    float: left;
+}
+.last h4{
+    float: left;
+}
